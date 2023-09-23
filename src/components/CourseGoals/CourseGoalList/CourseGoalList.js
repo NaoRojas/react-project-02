@@ -5,6 +5,10 @@ import './CourseGoalList.css';
 
 const CourseGoalList = props => {
   return (
+    <div>
+          <span className='heading-1'>
+      Your Goals
+    </span>
     <ul className="goal-list">
       {props.items.map(goal => (
         <CourseGoalItem
@@ -16,6 +20,8 @@ const CourseGoalList = props => {
         </CourseGoalItem>
       ))}
     </ul>
+    </div>
+
   );
 };
 

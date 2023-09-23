@@ -1,3 +1,17 @@
+:root{
+/* Colors */
+  --background-primary: #1f1f1f;
+  --background-secondary: #000;
+
+  --button-primary: #abef63;
+
+  --super-silver: #eee;
+  --melanzane: rgba(248, 113, 113, 0.1);
+  --kotle-brown: rgba(248, 113, 113, 0.4);
+  --angry-flamingo:#EF4444;
+
+}
+
 #goals {
   width: 35rem;
   max-width: 90%;
@@ -5,10 +19,14 @@
 }
 
 #goal-form {
-  width: 30rem;
+  width: 35rem;
   max-width: 90%;
   margin: 3rem auto;
   padding: 2rem;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  background-color: #000;
 }
+
+
+/* Colors */

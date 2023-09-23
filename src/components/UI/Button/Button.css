@@ -1,11 +1,15 @@
 .button {
   font: inherit;
-  padding: 0.5rem 1.5rem;
-  border: 1px solid #8b005d;
-  color: white;
-  background: #8b005d;
+  padding: 12px 30px;
+  border: none;
+  /* border: 1px solid #abef63; */
+  color: black;
+  background: #abef63;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
   cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 .button:focus {
@@ -14,7 +18,7 @@
 
 .button:hover,
 .button:active {
-  background: #ac0e77;
-  border-color: #ac0e77;
+  background: rgba(143, 255, 0, 0.47);
+  /* border: 1px solid #abef63; */
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
 }
